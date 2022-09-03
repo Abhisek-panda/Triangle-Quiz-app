@@ -2,7 +2,7 @@ const quizForm = document.querySelector(".quizform");
 const submitBtn = document.querySelector("#submit-btn");
 const outputDiv = document.querySelector("#output");
 
-const quizAnswers = ["a scalene triangle", "3"];
+const quizAnswers = ["a scalene triangle", "3", "medians", "an isosceles triangle", "an equilateral triangle","scalene triangle"];
 
 function calculateScore() {
     let score = 0;

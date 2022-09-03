@@ -14,7 +14,7 @@ function showingArea(){
     const heightValue = Number(triangleHeight.value);
    const areaOfTriangle =findArea(baseValue, heightValue);
 
-   areaOutput.innerText = areaOfTriangle;
+   areaOutput.innerText = "Area of Triangle is  "+ areaOfTriangle;
 
 }
 

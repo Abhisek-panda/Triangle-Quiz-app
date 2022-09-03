@@ -6,11 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz on Triangles</title>
+    <link rel="stylesheet" href="quiz.css">
 </head>
 
 <body>
     <header>
-        <nav><a href="quiz.html"></a></nav>
+        <span id="nav-title">Triangle Quiz</span>
+        <nav>
+            <a href="/isTriangle/istriangle.html">Is Triangle?</a>
+            <a href="quiz.html">Quiz for Triangle</a>
+            <a href="area.html">Find Area</a>
+        </nav>
+        
     </header>
     <h1>Quiz on Triangles</h1>
     <form class="quizform">
@@ -30,31 +37,31 @@
         </div>
         <div class="question-container">
             <p>Line segments joining the vertices to the mid-points of the opposite sides of a triangle are known as:</p>
-            <label><input type="radio"name="question3" value=""></label>
-            <label><input type="radio"name="question3" value=""></label>
-            <label><input type="radio"name="question3" value=""></label>
-            <label><input type="radio"name="question3" value=""></label>
+            <label><input type="radio"name="question3" value="medians">medians</label>
+            <label><input type="radio"name="question3" value="altitudes">altitudes</label>
+            <label><input type="radio"name="question3" value="heights">heights</label>
+            <label><input type="radio"name="question3" value="angle bisectors">angle bisectors</label>
         </div>
         <div class="question-container">
-            <p></p>
-            <label><input type="radio"name="question4" value=""></label>
-            <label><input type="radio"name="question4" value=""></label>
-            <label><input type="radio"name="question4" value=""></label>
-            <label><input type="radio"name="question4" value=""></label>
+            <p>A triangle whose two sides are equal is known as</p>
+            <label><input type="radio"name="question4" value="acute triangle">acute triangle</label>
+            <label><input type="radio"name="question4" value="an isosceles triangle">an isosceles triangle</label>
+            <label><input type="radio"name="question4" value="a scalene triangle">a scalene triangle</label>
+            <label><input type="radio"name="question4" value="an isosceles triangle">an isosceles triangle</label>
         </div>
         <div class="question-container">
-            <p></p>
-            <label><input type="radio"name="question5" value="" ></label>
-            <label><input type="radio"name="question5" value=""></label>
-            <label><input type="radio"name="question5" value=""></label>
-            <label><input type="radio"name="question5" value=""></label>
+            <p>A triangle whose all sides are equal is called</p>
+            <label><input type="radio"name="question5" value="an equilateral triangle" >an equilateral triangle</label>
+            <label><input type="radio"name="question5" value="an acute triangle">an acute triangle</label>
+            <label><input type="radio"name="question5" value="a right triangle">a right triangle</label>
+            <label><input type="radio"name="question5" value="an isosceles triangle">an isosceles triangle</label>
         </div>
         <div class="question-container">
-            <p></p>
-            <label><input type="radio"name="question6" value=""></label>
-            <label><input type="radio" name="question6" value=""></label>
-            <label><input type="radio"name="question6" value=""></label>
-            <label><input type="radio"name="question6" value=""></label>
+            <p>A triangle having all sides of different length is known as</p>
+            <label><input type="radio"name="question6" value="scalene triangle">scalene triangle</label>
+            <label><input type="radio" name="question6" value="isosceles triangle">isosceles triangle</label>
+            <label><input type="radio"name="question6" value="an equilateral triangle">an equilateral triangle</label>
+            <label><input type="radio"name="question6" value="an acute triangle">an acute triangle</label>
         </div>
     </form>
     <button id="submit-btn">Submit</button>
